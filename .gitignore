@@ -12,6 +12,7 @@
 /build
 
 /.netlify
+/src/reactTimer.js
 
 # misc
 .DS_Store
