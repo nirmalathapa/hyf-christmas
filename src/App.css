@@ -1,38 +1,33 @@
 .App {
   color: white;
-  height: 100%; 
-  width: 100%; 
+  height: 100%;
+  width: 100%;
   text-align: right;
 }
-.col{
-  padding:10px;  
+.col {
+  padding: 10px;
 }
-strong{
+strong {
   padding: 0 5px;
   font-size: 1.5em;
 }
-span{
+span {
   font-size: 1.5em;
   padding-right: 40px;
 }
 
-h1{
-  
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 5em;
   letter-spacing: 2px;
   text-align: right;
   padding-right: 40px;
 }
-h3{
+h3 {
   text-align: right;
   font-size: 3em;
-  text-shadow: 
-  0 0 20px orange, 
-  1px 1px 20px orange, 
-  2px 2px 20px orange, 
-  -1px -1px 20px orange, 
-  -2px -2px 20px orange;
+  text-shadow: 0 0 20px orange, 1px 1px 20px orange, 2px 2px 20px orange,
+    -1px -1px 20px orange, -2px -2px 20px orange;
   padding-right: 40px;
 }
 .snowflake {
@@ -158,18 +153,18 @@ h3{
   -webkit-animation-delay: 4s, 2.5s;
   animation-delay: 4s, 2.5s;
 }
-.background{
-  background: url('./hyf-santa.jpeg') no-repeat center center fixed;
+.background {
+  background: url("./hyf-santa.jpeg") no-repeat center center fixed;
   background-position: center center;
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:  cover;
+  background-size: cover;
   background-color: #999;
 
   /* Set up proportionate scaling */
   width: 100%;
   height: 100%;
-	
+
   /* Set up positioning */
   position: fixed;
   top: 0;
@@ -180,15 +175,35 @@ h3{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 100%; 
-  height:6%;
-  bottom: 0; 
+  width: 100%;
+  height: 6%;
+  bottom: 0;
   display: block;
   position: absolute;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #eeeeee;
   text-align: right;
 }
-footer p{
+footer p {
   font-size: 0.9em;
 }
+p.christmasMessage {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+  font-size: 4em;
+	background: -o-linear-gradient(transparent, transparent) !important;
+	background: -webkit-linear-gradient(transparent, transparent), url(https://i.gifer.com/ER4r.gif) repeat;
+	background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+  font-weight: bolder;
+	width: 100%;
+	letter-spacing: 1px;
+	-webkit-background-clip: text;
+}
+
+@keyframes christmasMessage {
+  0%   {text-shadow: 0 0 6px #FFF;}
+  100%  {text-shadow: 0 0 0px #000;}
+}
+
