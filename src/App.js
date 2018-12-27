@@ -15,11 +15,11 @@ function App() {
           message="Merry Christmas!"
         />
         <SnowFlake />
-        {/*         <Clock
+        <Clock
           finalTime={Date.parse("Jan 1 2019")}
           message="Happy New Year 2019!"
         />
- */}{" "}
+
         <footer className="footer">
           <p>Background Photo by Daniel Reche from Pexels</p>
         </footer>
